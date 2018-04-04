@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         //myimageview.image = UIImage(named: "frame2.png")
         //index = index + 1
         //counter.text = String(index)
+        // 업데이트 버튼 누를시 카운터가 1씩 증가하며 이미지가 바뀜
         
         if index == 5 {
             back = 0
@@ -38,6 +39,7 @@ class ViewController: UIViewController {
         }
         myimageview.image = UIImage(named: "frame\(index).png")
         counter.text = String(index)
+        //업데이트 버튼 누를시 카운터가 1씩 증가하고 이미지가 바뀌며 5에 달했을때 -1씩 깍이게 되면서 이미지가 돌아 가면서 다시 바뀐다.
     }
     
 }
